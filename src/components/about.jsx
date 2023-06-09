@@ -1,39 +1,32 @@
-import React from 'react'
+import React from 'react';
 
-const about = () => {
+const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-      <div className='flex flex-col flex-wrap justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-400'>About</p>
-                </div>
-                <div>
-                </div>
-                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div>
-                        <p className='mx-auto text-3xl font-bold pb-4'>Hi. I'm William, nice to meet you. Please take a look around.</p>
-                    </div>
-                    <div>
-                        <p className='mx-auto text-2xl'>I'm Passionate about everything in tech,all about Machine Learning,Web Development also DevOps!</p>
-                        
-                    </div>
-   
-                </div>
-                <div>
-                <div>
-                <p className='mx-auto text-2xl'>I'm Currently Studying Diploma in Information Technology in <span className='text-2xl text-bold text-cyan-300 hover:underline' ><a href='https://www.tarc.edu.my/' target='_blank' rel="noopener noreferrer" >Tunku Abdul Rahman University Of Management and Technology</a></span></p>
-                </div>
-                <div>
-                        <p className='py-4 mx-auto text-2xl'>I'm looking for opprutinities to participate in Machine Learning & Web Development Field. </p>
-                    </div>
-
-                </div>
-            </div>
-
+<div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+<div className='flex flex-col items-center justify-center w-full h-full'>
+  <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+    <div className='pb-8 pl-4 sm:text-right'>
+      <p className='inline text-4xl font-bold border-b-4 border-pink-600'>
+        About
+      </p>
+    </div>
+    <div></div>
+    </div>
+    <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+      <div className='text-4xl font-bold sm:text-right'>
+      <p className='pb-4 text-3xl font-bold text-center md:text-left'>Hi. I'm William, nice to meet you. Please take a look around.</p>
+      </div>
+      <div>
+      <p className='text-xl text-center md:text-left'>I'm passionate about everything in tech, all about Machine Learning, Web Development, and DevOps!</p>
+      <br/>
+      <p className='text-xl text-center md:text-left'>I'm currently studying Diploma in Information Technology at <span className='text-xl font-bold text-cyan-300 hover:underline'><a href='https://www.tarc.edu.my/' target='_blank' rel='noopener noreferrer'>Tunku Abdul Rahman University Of Management and Technology</a></span></p>
+      <br/>
+      <p className='py-4 text-xl text-center md:text-left'>I'm looking for opportunities to participate in the Machine Learning & Web Development field.</p>
       </div>
     </div>
-  )
-}
+</div>
+</div>
+  );
+};
 
-export default about
+export default About;
